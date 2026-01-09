@@ -2377,7 +2377,7 @@ window.devel toolbarview > .top-bar { background-image: cross-fade(5% -gtk-recol
 
 window.devel dialog toolbarview > .top-bar { background-image: unset; background-repeat: unset; }
 
-tooltip { padding: 6px 10px; border-radius: 9px; box-shadow: none; }
+tooltip { padding: 6px 10px; border-radius: 2px; box-shadow: none; }
 
 tooltip.background { background-color: rgba(0, 0, 0, 0.8); background-clip: padding-box; border: 1px solid rgba(255, 255, 255, 0.1); color: white; }
 
