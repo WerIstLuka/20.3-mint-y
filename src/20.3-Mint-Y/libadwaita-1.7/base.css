@@ -2472,8 +2472,6 @@ toolbarview > .top-bar.raised, toolbarview > .bottom-bar.raised { background-col
 
 toolbarview > .top-bar.raised:backdrop, toolbarview > .bottom-bar.raised:backdrop { background-color: var(--headerbar-backdrop-color); transition: background-color 200ms ease-out; }
 
-toolbarview > .top-bar:backdrop > windowhandle, toolbarview > .bottom-bar:backdrop > windowhandle { filter: opacity(0.5); transition: filter 200ms ease-out; }
-
 toolbarview > .top-bar.raised { box-shadow: 0 1px color-mix(in srgb, var(--headerbar-shade-color) 50%, transparent), 0 2px 4px color-mix(in srgb, var(--headerbar-shade-color) 50%, transparent); }
 
 toolbarview > .top-bar.raised.border { box-shadow: 0 1px var(--headerbar-darker-shade-color); }

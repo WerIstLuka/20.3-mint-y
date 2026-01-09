@@ -2359,8 +2359,6 @@ toolbarview > .top-bar.raised, toolbarview > .bottom-bar.raised { background-col
 
 toolbarview > .top-bar.raised:backdrop, toolbarview > .bottom-bar.raised:backdrop { background-color: @headerbar_backdrop_color; transition: background-color 200ms ease-out; }
 
-toolbarview > .top-bar:backdrop > windowhandle, toolbarview > .bottom-bar:backdrop > windowhandle { filter: opacity(0.5); transition: filter 200ms ease-out; }
-
 toolbarview > .top-bar.raised { box-shadow: 0 1px alpha(@headerbar_shade_color,0.5), 0 2px 4px alpha(@headerbar_shade_color,0.5); }
 
 toolbarview > .top-bar.raised.border { box-shadow: 0 1px @headerbar_darker_shade_color; }
