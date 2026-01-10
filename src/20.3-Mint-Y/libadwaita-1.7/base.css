@@ -2221,7 +2221,7 @@ switch:checked > slider { background-color: white; }
 
 .osd switch:checked { background-color: RGB(255 255 255/60%); }
 
-tabbar .box { background-color: var(--headerbar-bg-color); color: var(--headerbar-fg-color); box-shadow: inset 0 -1px var(--headerbar-shade-color); padding: 1px; padding-top: 0; }
+tabbar .box { background-color: @luka_titlebar; color: var(--headerbar-fg-color); box-shadow: inset 0 -1px var(--headerbar-shade-color); padding: 1px; padding-top: 0; }
 
 tabbar .box:backdrop { background-color: var(--headerbar-backdrop-color); transition: background-color 200ms ease-out; }
 
